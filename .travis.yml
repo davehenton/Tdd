@@ -22,4 +22,4 @@ script:
   
 after_success:
   - coveralls
-  - ./cc-test-reporter after-build
+  - ./cc-test-reporter after-build -d
